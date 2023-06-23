@@ -71,7 +71,7 @@
 						<li>
 							<a href="">Sobre nós</a>  
 						</li> 
-						<li>
+						<li> PINTAO
 							<a href="">Contato</a>  
 						</li> 
 						<li>
