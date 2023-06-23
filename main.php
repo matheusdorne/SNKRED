@@ -11,7 +11,7 @@
     <body>  
         <div class="bodymain">
             <header>  
-                <div id="div_head"> 
+                <div id="div_head"> bucetinha
                     <ul id="header_snkred"> 
                         <li> 
                             <a href="main.html">
