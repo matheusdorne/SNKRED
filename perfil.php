@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil do Cliente</title>
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="perfil.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/perfil.css">
 </head>
 
 <body>
@@ -35,6 +35,8 @@
                 </ul>
             </div>
         </header>
+        <div id="blackfriday">BLACK FRIDAY COM ATÉ 70% OFF</div>  
+
     
 
     <main>

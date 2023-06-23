@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visualizar Pedidos</title>
-    <link rel="stylesheet" href="css/header.css"> #
-    <link rel="stylesheet" href="css/pedidos.css"> #
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/pedidos.css">
 </head>
 
 <body>
