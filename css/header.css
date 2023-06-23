@@ -109,7 +109,7 @@ footer {
 
 .footer { 
   margin: 40px;  
-  display: inline-block;
+  display: flexbox;
 
    
 } 
