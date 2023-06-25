@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="css/pagamento.css"> 
 </head>
 <body>
-  <header>
+  
   <header>  
                 <div id="div_head"> 
                     <ul id="header_snkred"> 
@@ -32,9 +32,9 @@
                         </li>
                     </ul>
                 </div>
-            </header> 
+    </header> 
             <div id="blackfriday">BLACK FRIDAY COM ATÉ 70% OFF</div>  
-  </header>
+  
 
   <main> 
     <div class="detalhe-entrega"> 
