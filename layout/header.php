@@ -18,6 +18,6 @@
                                 <img class="cartbtn" src="imagens/logo_shoppingcart.png" alt="ICONE DE CARRINHO DE COMPRAS">  
                             </a>  
                         </li>
-                    </ul>
+                    </ul> teste
                 </div>
                 <div id="blackfriday">BLACK FRIDAY COM ATÉ 70% OFF</div>  
