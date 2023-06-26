@@ -71,11 +71,11 @@
 						<li>
 							<a href="">Sobre nós</a>  
 						</li> 
-						<li>
+						<li> PINTAO
 							<a href="">Contato</a>  
 						</li> 
 						<li>
-							<a href="">Formas de Pagamento</a>  
+							<a href="">Formas de  SE MATAR saaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPagamento</a>  
 						</li>
 					</ul>   
 				</nav> 
