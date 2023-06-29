@@ -35,10 +35,10 @@
         </div>
     </header>
     <div id="blackfriday">BLACK FRIDAY COM ATÉ 70% OFF</div>
-
+    <h1>Meus Pedidos</h1>
     <main>
         <div class="pedidos-container">
-            <h1>Meus Pedidos</h1>
+           
             <table class="pedidos-table">
                 <thead>
                     <tr>

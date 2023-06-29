@@ -95,7 +95,7 @@
 				</tr>		
 			</table> 	
 		</div>	 
-		<button id="btnContinua">Continuar para Pagamento</button> 
+		<button action="pagamento.php" id="btnContinua">Continuar para Pagamento</button> 
 		<footer>  
 			<div class="footer"> 
 				<nav class="footer">

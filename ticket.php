@@ -37,9 +37,10 @@
     <div id="blackfriday">BLACK FRIDAY COM ATÉ 70% OFF</div>
 
 
-    <main>
+    <main> 
+    <h1>Enviar Ticket de Suporte</h1>
         <div class="enviar-ticket">
-            <h1>Enviar Ticket de Suporte</h1>
+            
             <form action="enviar_ticket.php" method="POST">
                 <div class="campo">
                     <label for="nome">Nome:</label>

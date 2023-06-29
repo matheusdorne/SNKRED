@@ -43,8 +43,11 @@
         <div class="perfil-cliente">
             <h1>Perfil do Cliente</h1>
             <div class="dados-pessoais">
-                <h3>Dados Pessoais</h3>
+        
                 <ul>
+                    <li>
+                    <img src="https://thumbs.dreamstime.com/b/vetor-de-%C3%ADcone-perfil-do-avatar-padrão-foto-usuário-m%C3%ADdia-social-183042379.jpg"  >
+                    </li>
                     <li>
                         <span class="label">Nome:</span>
                         <span class="valor">John Doe</span>
