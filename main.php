@@ -11,7 +11,8 @@
     <body>  
         <div class="bodymain">
           <?php  
-          include 'layout/header.php'
+          include_once 'layout/header.php'
+          include_once 'layout/promo.php'
           ?>
             <div class="main_div"> 
                 <section class="slider">
