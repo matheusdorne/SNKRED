@@ -1,3 +1,4 @@
+
             <div id="div_head"> 
                     <ul id="header_snkred"> 
                         <li> 
@@ -18,6 +19,6 @@
                                 <img class="cartbtn" src="imagens/logo_shoppingcart.png" alt="ICONE DE CARRINHO DE COMPRAS">  
                             </a>  
                         </li>
-                    </ul> teste
+                    </ul> 
                 </div>
                 <div id="blackfriday">BLACK FRIDAY COM ATÉ 70% OFF</div>  
