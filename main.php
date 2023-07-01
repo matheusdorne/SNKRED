@@ -5,6 +5,7 @@
         <title>SNKRED</title> 
         
         <link rel="stylesheet" href="css/css_main.css">
+        <link rel="stylesheet" href="css/header.css">
         
 
     </head> 
