@@ -109,7 +109,7 @@ footer {
 
 .footer { 
   margin: 40px;  
-  display: flexbox;
+  display: flex;
 
    
 } 
@@ -140,4 +140,8 @@ footer {
 .socialBtn li a img { 
     width: 25px; 
     height: 25px;
+} 
+
+footer h3 { 
+    text-align: left;
 }
