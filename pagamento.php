@@ -11,9 +11,9 @@
 
 <body>
 
-    <?php
-    include_once 'layout/header.php';
-    include_once 'layout/promo.php';
+    <?php 
+        include_once 'layout/header.php';
+        include_once 'layout/promo.php';
     ?>
 
 
@@ -67,13 +67,13 @@
                     </li>
 
                 </ul>
-                <button class="btn-pagar">Pagar</button>
+            
             </form>
         </div>
     </main>
 
-    <?php
-    include_once 'layout/footer.php'
+    <?php 
+        include_once 'layout/footer.php' 
     ?>
 </body>
 

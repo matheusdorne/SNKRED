@@ -10,37 +10,18 @@
 </head>
 
 <body>
-    <header>
-        <div id="div_head">
-            <ul id="header_snkred">
-                <li>
-                    <a href="main.html">
-                        <img class="logo-snkred" src="imagens/logo_snkred.png" alt="LOGO DO SITE SNKRED">
-                    </a>
-                </li>
-                <li>
-                    <div class="separador"></div>
-                </li>
-                <li>
-                    <form action="login.html">
-                        <button type="submit" class="loginBtn">LOGIN</button>
-                    </form>
-                </li>
-                <li>
-                    <a href="carrinho.html">
-                        <img class="cartbtn" src="imagens/logo_shoppingcart.png" alt="ICONE DE CARRINHO DE COMPRAS">
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <div id="blackfriday">BLACK FRIDAY COM ATÉ 70% OFF</div>
+
+    <?php
+    include_once 'layout/header.php';
+    include_once 'layout/promo.php';
+    ?>
 
 
-    <main> 
-    <h1>Enviar Ticket de Suporte</h1>
+
+    <main>
+        <h1>Enviar Ticket de Suporte</h1>
         <div class="enviar-ticket">
-            
+
             <form action="enviar_ticket.php" method="POST">
                 <div class="campo">
                     <label for="nome">Nome:</label>
@@ -63,63 +44,10 @@
         </div>
     </main>
 
-    <footer>
-        <div class="footer">
-            <nav class="footer">
-                <ul>
-                    <li>
-                        <h3>AJUDA E SUPORTE</h3>
-                    </li>
-                    <li>
-                        <a href="">Sobre nós</a>
-                    </li>
-                    <li>
-                        <a href="">Contato</a>
-                    </li>
-                    <li>
-                        <a href="">Formas de Pagamento</a>
-                    </li>
-                </ul>
-            </nav>
-            <nav class="footer">
-                <ul>
-                    <li>
-                        <h3>CATEGORIAS</h3>
-                    </li>
-                    <li>
-                        <a href="">Skate</a>
-                    </li>
-                    <li>
-                        <a href="">Casual</a>
-                    </li>
-                    <li>
-                        <a href="">Basquete</a>
-                    </li>
-                </ul>
-            </nav>
-            <nav class="footer">
-                <ul class="socialBtn">
-                    <li>
-                        <h3>REDE SOCIAIS</h3>
-                    </li>
-                    <li>
-                        <a href="https://pt-br.facebook.com/">
-                            <img src="imagens/fbicon.png" alt="ICONE DO FACEBOOK">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/">
-                            <img src="imagens/insticon.png" alt="ICONE DO INSTAGRAM">
-                        </a>
-                    </li>
-                    <li> <a href="https://twitter.com/login?lang=pt">
-                            <img src="imagens/twiticon.png" alt="ICONE DO TWITTER">
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
+    <?php
+    include_once 'layout/footer.php';
+    ?>
+
 </body>
 
 </html>

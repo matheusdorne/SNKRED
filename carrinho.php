@@ -77,7 +77,9 @@
 				</tr>
 			</table>
 		</div>
-		<button action="pagamento.php" id="btnContinua">Continuar para Pagamento</button>
+		<form action="pagamento.php">
+                    <button type="submit" class="continuaPagamentoBtn">Continuar para Pagamento</button>
+                </form>
 		<?php
 		include_once 'layout/footer.php'
 		?>

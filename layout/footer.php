@@ -9,7 +9,7 @@
                     <a href="">Sobre nós</a>
                 </li>
                 <li>
-                    <a href="">Contato</a>
+                    <a href="ticket.php">Contato</a>
                 </li>
                 <li>
                     <a href="">Formas de Pagamento</a>
