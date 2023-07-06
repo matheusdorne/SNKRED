@@ -22,13 +22,13 @@
 			<form name="Login" action="login.html" method="post">
 				<ul class="logincontainer">
 					<li>
-						<input type="text" name="nome" placeholder="Nome" id="nomeid">
+						<input type="email" name="email" placeholder="Informe seu E-mail" id="emailid" required>
 					</li>
 					<li>
-						<input type="password" name="senha" placeholder="Senha" id="senhaid">
+						<input type="password" name="senha" placeholder="Insira sua Senha" id="senhaid" required>
 					</li>
 					<li>
-						<a href="login.html" class="btnLogar">Enviar</a>
+						<input type="submit" name="acessar" value="Acessar" >
 					</li>
 					<li>
 						<a href="" class="forgetPW">Esqueceu sua senha?</a>
