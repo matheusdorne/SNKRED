@@ -1,3 +1,6 @@
+<?php 
+require_once 'function.php';
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -19,7 +22,7 @@
 		?>
 		<div class="tela-login">
 			<h1>Login</h1>
-			<form name="Login" action="login.html" method="post">
+			<form name="login" action="login.php" method="post">
 				<ul class="logincontainer">
 					<li>
 						<input type="email" name="email" placeholder="Informe seu E-mail" id="emailid" required>
@@ -40,7 +43,14 @@
 						<a href="" class="signup">Cadastre-se</a>
 					</li>
 				</ul>
-			</form>
+			</form> 
+
+			<?php 
+			if(isset($_POST['acessar'])){
+				login($connect); 
+
+			}
+			?>
 		</div>
 		<?php 
 		include_once 'layout/footer.php'
