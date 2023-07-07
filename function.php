@@ -25,10 +25,12 @@ function login($connect){
         if(!empty($return['email'])){ 
             //echo $return['email']; 
             session_start(); 
+            $_SESSION['email'] = $return['email'];
             $_SESSION['nome'] = $return['nome']; 
             $_SESSION['id'] = $return['id']; 
-            $_SESSION['ativa'] = $return['ativa']; 
-            
+            $_SESSION['ativa'] = TRUE;  
+            header('Location: perfil.php');
+
         }else{
         echo "Usuário ou senha incorretos!";
         }

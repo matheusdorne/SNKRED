@@ -1,5 +1,9 @@
-<?php 
+<?php
 require_once 'function.php';
+
+if (isset($_POST['acessar'])) {
+	login($connect);
+}
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -10,10 +14,7 @@ require_once 'function.php';
 	<title>SNKRED | LOGIN</title>
 	<link rel="stylesheet" type="text/css" href="css/login.css">
 	<link rel="stylesheet" href="css/header.css">
-
-
 </head>
-
 <body>
 	<div class="bodymain">
 		<?php
@@ -31,7 +32,7 @@ require_once 'function.php';
 						<input type="password" name="senha" placeholder="Insira sua Senha" id="senhaid" required>
 					</li>
 					<li>
-						<input type="submit" name="acessar" value="Acessar" >
+						<input type="submit" name="acessar" value="Acessar">
 					</li>
 					<li>
 						<a href="" class="forgetPW">Esqueceu sua senha?</a>
@@ -43,16 +44,9 @@ require_once 'function.php';
 						<a href="" class="signup">Cadastre-se</a>
 					</li>
 				</ul>
-			</form> 
-
-			<?php 
-			if(isset($_POST['acessar'])){
-				login($connect); 
-
-			}
-			?>
+			</form>
 		</div>
-		<?php 
+		<?php
 		include_once 'layout/footer.php'
 		?>
 	</div>
