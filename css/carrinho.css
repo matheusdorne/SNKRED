@@ -91,18 +91,12 @@ thead {
 
 
 btn btn-primary { 
-    margin-top: 20px;
-    border: none;
-    width: 80px;
-    border-radius: 10px;
-    padding: 15px;
-    color: whitesmoke;
-    font-size: 12px;
-    border-radius: 10%;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-color: grey;  
+	border: 2px solid black;  
+	width: fit-content;  
+	border-radius:10px;  
+	padding: 15px;
+	color: whitesmoke;  
+	font-size: 12px;    
 
 }
