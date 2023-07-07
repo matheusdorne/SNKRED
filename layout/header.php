@@ -19,6 +19,12 @@
                     <img class="cartbtn" src="imagens/logo_shoppingcart.png" alt="ICONE DE CARRINHO DE COMPRAS">
                 </a>
             </li>
-        </ul>
+            <li>
+                <a href="pedidos.php">
+                    <img class="cartbtn" src="imagens/logo_pedidos.png" alt="ICONE DE CARRINHO DE LISTA DE PEDIDOS">
+                </a>
+            </li>
+        </ul> 
+        
     </div>
 </header>
