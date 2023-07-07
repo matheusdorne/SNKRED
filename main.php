@@ -43,7 +43,7 @@
                 <section id="catalogo">
                     <ul class="catalogo">
                         <li> 
-                            <a href="produto.html">
+                            <a href="produto.php">
                                 <img  src="https://artwalk.vteximg.com.br/arquivos/ids/264855-1000-1000/55472-4-078-1.jpg?v=637938616022270000" alt="TENIS AIR JORDAN 1 MID MASCULINO CINZA">    
                                 <span class="produto_select">Air Jordan 1 Mid Masculino </span>  
                                 <span class="produto_tipo">Casual</span>
