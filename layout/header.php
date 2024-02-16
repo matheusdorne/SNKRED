@@ -2,7 +2,7 @@
     <div id="div_head">
         <ul id="header_snkred">
             <li>
-                <a href="main.php">
+                <a href="index.php">
                     <img class="logo-snkred" src="imagens/logo_snkred.png" alt="LOGO DO SITE SNKRED">
                 </a>
             </li>
