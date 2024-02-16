@@ -77,7 +77,7 @@
 				</tr>
 			</table>
 		</div>
-		<a href="index.html" class="btn btn-primary">Continuar Comprando</a>
+		<a href="index.php" class="btn btn-primary">Continuar Comprando</a>
 		<form action="pagamento.php" method="post">
 			<input type="submit" value="Finalizar Compra" class="btn btn-primary">
 			
